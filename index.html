@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student Name | Academic Homepage</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <!-- Top header -->
+  <header class="site-header" id="top">
+    <div class="container header-grid">
+      <div class="profile">
+        <!-- Replace assets/profile.jpg with your student's photo (or remove the img tag) -->
+        <img class="avatar" src="assets/profile.jpg" alt="Profile photo" onerror="this.style.display='none';" />
+      </div>
+
+      <div class="header-text">
+        <h1>Student Name</h1>
+        <p class="subtitle">High School Student Researcher | AI Projects</p>
+
+        <div class="meta">
+          <div><span class="label">Email:</span> <a href="mailto:student@email.com">student@email.com</a></div>
+          <div><span class="label">Affiliation:</span> School / Program Name</div>
+          <div><span class="label">Location:</span> Sydney, Australia</div>
+        </div>
+
+        <nav class="nav">
+          <a href="#about">About Me</a>
+          <a href="#research">Research Interest</a>
+          <a href="#projects">Projects</a>
+          <a href="#publications">Publications</a>
+          <a href="#awards">Awards & Honors</a>
+          <a href="#services">Professional Services</a>
+          <a href="#teaching">Teaching / Mentoring</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+
+      <p class="lead">
+        I am <strong>Student Name</strong>, a high school student interested in building practical AI systems with social impact.
+        My current focus is on building human-centered AI assistants for education and community care.
+      </p>
+
+      <p>
+        I enjoy learning machine learning fundamentals, reading research papers, and turning ideas into working prototypes.
+        I’m currently developing projects including a RAG chatbot for younger students and a task-oriented agent for elderly support.
+      </p>
+
+      <p class="small">
+        You may see my latest CV here: <a href="#" target="_blank" rel="noopener">CV (link)</a>
+      </p>
+    </section>
+
+    <!-- Research -->
+    <section id="research" class="section">
+      <h2>Research Interest</h2>
+      <p>My interests include:</p>
+      <ul>
+        <li>Human-centered AI systems for education and accessibility</li>
+        <li>Natural language processing and information retrieval</li>
+        <li>Agentic AI: task planning, tool use, and stateful assistants</li>
+        <li>AI safety, reliability, and responsible design for real users</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <article class="card">
+        <h3>Project 1: RAG Chatbot for Younger Students</h3>
+        <p class="muted">Keywords: RAG, vector search, chunking, embeddings, grounded answers</p>
+        <p>
+          Built a Retrieval-Augmented Generation chatbot to help younger students learn foundational concepts using a curated knowledge set.
+          The system retrieves relevant information and generates answers grounded in the retrieved content.
+        </p>
+        <ul class="compact">
+          <li><strong>Goal:</strong> Improve learning support with trustworthy, source-grounded answers.</li>
+          <li><strong>Core features:</strong> Document ingestion, chunking, retrieval, and answer generation with citations.</li>
+          <li><strong>Demo:</strong> <a href="#" target="_blank" rel="noopener">Live demo link</a> | <a href="#" target="_blank" rel="noopener">GitHub repo link</a></li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Project 2: CareBridge Agent for Elderly Support</h3>
+        <p class="muted">Keywords: agents, task planning, reminders, home tasks, travel planning</p>
+        <p>
+          Designed a task-oriented AI assistant to support elderly independent living through simple travel planning,
+          home safety task management, and medication routine reminders.
+        </p>
+        <ul class="compact">
+          <li><strong>Goal:</strong> Reduce cognitive load by turning complex tasks into simple step-by-step actions.</li>
+          <li><strong>Core features:</strong> Task list tracking, confirmations, prioritized daily actions, and reminder logic.</li>
+          <li><strong>Demo:</strong> <a href="#" target="_blank" rel="noopener">Live demo link</a> | <a href="#" target="_blank" rel="noopener">GitHub repo link</a></li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Project 3: (Optional) AI Safety & Evaluation Mini Study</h3>
+        <p class="muted">Keywords: evaluation, hallucination, robustness, user testing</p>
+        <p>
+          Explored simple evaluation methods to test reliability and usability of student-built AI systems, focusing on clarity,
+          safety boundaries, and measurable success criteria.
+        </p>
+      </article>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+      <p class="muted">(* indicates equal contribution)</p>
+
+      <h3>Conference Papers</h3>
+      <ol class="pub-list">
+        <li>
+          Student Name, Collaborator A, Collaborator B.
+          <em>Title of Paper or Project Report.</em>
+          Conference/Workshop, Year.
+          <span class="links">[<a href="#" target="_blank" rel="noopener">PDF</a>] [<a href="#" target="_blank" rel="noopener">Code</a>]</span>
+        </li>
+      </ol>
+
+      <h3>Other Writing / Reports</h3>
+      <ol class="pub-list">
+        <li>
+          Student Name.
+          <em>Project Report: RAG Chatbot for Younger Students.</em>
+          Year.
+          <span class="links">[<a href="#" target="_blank" rel="noopener">PDF</a>]</span>
+        </li>
+        <li>
+          Student Name.
+          <em>Project Report: CareBridge Agent for Elderly Support.</em>
+          Year.
+          <span class="links">[<a href="#" target="_blank" rel="noopener">PDF</a>]</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Awards -->
+    <section id="awards" class="section">
+      <h2>Awards & Honors</h2>
+      <ul>
+        <li>Example Award, Year</li>
+        <li>Example Scholarship, Year</li>
+        <li>Competition Finalist / Merit, Year</li>
+      </ul>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <h2>Professional Services</h2>
+      <ul>
+        <li>Volunteer mentor for AI learning group, Year</li>
+        <li>Assistant organizer for school tech event, Year</li>
+      </ul>
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching" class="section">
+      <h2>Teaching / Mentoring</h2>
+      <ul>
+        <li>Peer tutoring: Python / AI basics, Year</li>
+        <li>Helped design learning materials for younger students, Year</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p class="small">
+        Last modified: <span id="lastModified">—</span>
+      </p>
+      <p class="small">
+        Template: Simple single-page academic homepage
+      </p>
+    </footer>
+  </main>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
